@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/troje/nextjs-dashboard/app/layout.tsx"],"sourcesContent":["import '@/app/ui/global.css';\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"en\">\n      <body>\n        <h1 className=\"text-blue-500\">I'm blue!</h1>\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,6WAAC;QAAK,MAAK;kBACT,cAAA,6WAAC;;8BACC,6WAAC;oBAAG,WAAU;8BAAgB;;;;;;gBAC7B;;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/troje/nextjs-dashboard/node_modules/.pnpm/next%4015.1.6_react-dom%4019.0.0_react%4019.0.0__react%4019.0.0/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,qMAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
